@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Збереження даних про книгу</title>
+  </head>
+  <body>
+    <h1>Збереження даних про книгу</h1>
+    <form method="post">
+      {{ form.csrf_token }}
+      <p>
+        {{ form.title.label }}<br />
+        {{ form.title() }}
+      </p>
+      <p>
+        {{ form.author.label }}<br />
+        {{ form.author() }}
+      </p>
+      <p>
+        {{ form.publisher.label }}<br />
+        {{ form.publisher() }}
+      </p>
+      <p>
+        {{ form.year.label }}<br />
+        {{ form.year() }}
+      </p>
+      <p>
+        {{ form.pages.label }}<br />
+        {{ form.pages() }}
+      </p>
+      <p>
+        <input type="submit" value="Зберегти" />
+      </p>
+    </form>
+  </body>
+</html>
