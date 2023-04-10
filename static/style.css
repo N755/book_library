@@ -1,0 +1,13 @@
+.mytable {
+  margin: 0 auto;
+  display: block;
+}
+body {
+  background-color: rgb(97, 163, 82);
+  width: 500px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: large;
+  font-style: italic;
+}
