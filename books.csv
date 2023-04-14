@@ -1,6 +1,2 @@
-title,author,publisher,year,pages
-book1,author1,bgfmd,2013,232
-book2,author2,kbgbgb,2015,132
-book1,Author1,ncbxf,2016,326
-book1,Author1,ncbxf,2016,326
-fbgfbd,Author,fdnf,2016,326
+id,title,author,publisher,year,pages
+0,book2,author2,publisher2,2020,236
