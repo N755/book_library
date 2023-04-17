@@ -2,34 +2,34 @@
 <html>
   <head>
     <title>My book library</title>
-    <link rel="stylesheet" href="static\style.css" />
+    <link rel="stylesheet" href="static\style.css">
   </head>
   <body>
     <h1>Please enter book details</h1>
     <form method="post">
       {{ form.csrf_token }}
       <p>
-        {{ form.title.label }}<br />
+        {{ form.title.label }}<br>
         {{ form.title() }}
       </p>
       <p>
-        {{ form.author.label }}<br />
+        {{ form.author.label }}<br>
         {{ form.author() }}
       </p>
       <p>
-        {{ form.publisher.label }}<br />
+        {{ form.publisher.label }}<br>
         {{ form.publisher() }}
       </p>
       <p>
-        {{ form.year.label }}<br />
+        {{ form.year.label }}<br>
         {{ form.year() }}
       </p>
       <p>
-        {{ form.pages.label }}<br />
+        {{ form.pages.label }}<br>
         {{ form.pages() }}
       </p>
       <p>
-        <input type="submit" value="Save" />
+        <input type="submit" value="Save">
       </p>
     </form>
     <h1>My list of books</h1>
